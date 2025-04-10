@@ -1,6 +1,7 @@
-/*Brute force approach Time complexibility=o(n^2)*/
+/*Brute force approach Time complexibility=o(n^2)
+2nd largest & 2nd smallest elements */
 
-/*include<stdio.h>
+include<stdio.h>
 
 int main(){
     int n,i,j;
