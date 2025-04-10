@@ -30,6 +30,8 @@ int main() {
     return 0;
 }
 
+
+/*Brute Force approach*/
 #include <stdio.h>
 
 int main(){
