@@ -1,7 +1,7 @@
 /*Brute force approach to rotate an array by one space,by adding a dummy array dummy[i]=arr[i+1] and then adding the first element of arr to the dummy
 time complexity O(n)
 space complexity O(n):- using another array so*/
-/*
+
 #include<stdio.h>
 #define MAX 100
 
@@ -27,7 +27,7 @@ int main(){
 
     return 0;
 
-}*/
+}
 
 /*optimal solution*/
 
