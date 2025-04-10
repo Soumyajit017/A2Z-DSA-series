@@ -1,4 +1,6 @@
 //recursive approach
+/*finding out the largest element in an array*/
+
 #include<stdio.h>
 #define MAX 100 // Define a maximum size for the array
 
@@ -8,21 +10,21 @@ int main() {
     printf("Enter the number of elements in the array: ");
     scanf("%d", &n);
 
-    // Validate the input size
+    
     if (n <= 0 || n > MAX) {
         printf("Invalid number of elements. Please enter a value between 1 and %d.\n", MAX);
-        return 1; // Exit the program with an error code
+        return 1; 
     }
 
     printf("Enter the elements of the array:\n");
-    for (i = 0; i < n; i++) { // Start from i = 0
+    for (i = 0; i < n; i++) { 
         scanf("%d", &arr[i]);
     }
 
-    largest = arr[0]; // Initialize largest with the first element
-    for (i = 1; i < n; i++) { // Start from the second element
+    largest = arr[0]; 
+    for (i = 1; i < n; i++) { 
         if (arr[i] > largest) {
-            largest = arr[i]; // Update largest
+            largest = arr[i]; 
         }
     }
 
